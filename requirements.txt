@@ -1,0 +1,12 @@
+# Flask Framework
+Flask==1.1.1
+
+# Flask Packages
+Flask-RESTful==0.3.8
+Flask-SQLAlchemy==2.4.1
+Flask-jsonpify==1.5.0
+Flask-wtf==0.14.3
+Flask-DotEnv==0.1.2
+Flask-RESTPlus==0.13.0
+# SQL
+Pymysql==0.9.3
