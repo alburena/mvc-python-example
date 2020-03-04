@@ -45,8 +45,5 @@ class UsersController(Resource):
         body = request.get_json(force=True)
         user.update(body)
 
-        user = User.query.filter(User.id == id).first()
-        print(user)
-
-        return user.to_json(), 200
+        return jsonify(user.toJSON())
 

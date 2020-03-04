@@ -1,4 +1,3 @@
-import json
 from flask import json
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm.attributes import QueryableAttribute
